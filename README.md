@@ -72,4 +72,8 @@ def foo():
 |  2      |Red     | 10  |
 |  3      |Green   | 5   |
 
-
+# Task 10
+```python
+def my_function():
+  print("Hello from a function")
+```
