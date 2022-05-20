@@ -48,7 +48,7 @@ Name: Mary Grace Palenzuela
 
 # This is a large heading. 
 
-```Inline code: make this word inline.```
+> Inline code: make this word inline.
 
 # This is a large heading. 
 
@@ -77,3 +77,5 @@ def foo():
 def my_function():
   print("Hello from a function")
 ```
+
+##### Random Text
