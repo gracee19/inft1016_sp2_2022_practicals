@@ -18,6 +18,7 @@
 
 body{
     background-color: rgba(var(--c-background-color));
+    width: 800px;
 }
 header, footer{
     background-color: rgba(var(--c-background-highlights));
@@ -29,11 +30,11 @@ main,footer,header{
 link{
     color: rgba(var(--c-magenta));
 }
-link:hover{
+nav~li,a:hover{
     color: rgba(var(--c-orange));
 }
 
-h3~p{
+div{
     border:solid 3px;
     border-color: rgba(var(--c-cyan));
 }
@@ -42,11 +43,15 @@ header{
     text-size-adjust: 150%;
     color: rgba(var(--c-yellow));
 }
-nav,ul,li{
+.menu{
     list-style: none;
     text-align: center;
     display: inline-flex;
     padding: 0 80px;
 }
-
-
+aside{
+    color: rgba(var(--c-green));
+}
+h1,h2,h3{
+    padding-top: 50px;
+}
