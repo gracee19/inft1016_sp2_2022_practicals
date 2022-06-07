@@ -4,32 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" type = "text/css">
+    <link rel="stylesheet" href="./style.css" type = "text/css">
     <title>Assignment 3 - WebPage</title>
 </head>
 <body>
     <h1>GuardIO vs CyberHawk</h1>
-    <button onclick="myButton()">Pardalote
-        <img src="http://www.outgrabe.net/bird00.jpg" alt="">
-    </button>
-    <button>Purple Swamp Hen
-        <img src="http://www.outgrabe.net/bird01.jpg" alt="">
-    </button>
-    <button>White-headed Stilt
-        <img src="http://www.outgrabe.net/bird02.jpg" alt="">
-    </button>
-    <button>Inland Thornbill
-        <img src="http://www.outgrabe.net/bird03.jpg" alt="">
-    </button>
-    <button>Rose Robin
-        <img src="http://www.outgrabe.net/bird04.jpg" alt="">
-    </button>
+    <div> 
+        <img id="image" src="http://www.outgrabe.net/bird00.jpg" alt=""/>   
+    </div>
+    <button onclick="btnClick()" type="button" id="myBtn">Pardalote</button>
+    <div>
+        <img id= "hen" src="http://www.outgrabe.net/bird01.jpg" alt=""/>
+    </div> 
+    <button onclick="btnClick2()" type="button" id="myBtn2">Purple Swamp Hen</button>
+    <div>
+        <img id="stilt" src="http://www.outgrabe.net/bird02.jpg" alt="">
+    </div>
+    <button onclick="btnClick3()" type="button" id="myBtn3">White-headed Stilt</button>
+    <div>
+        <img id="thornBill" src="http://www.outgrabe.net/bird03.jpg" alt="">
+    </div>
+    <button onclick="btnClick4()" type="button" id="myBtn4">Inland Thornbill</button>
+    <div>
+        <img id="robin"src="http://www.outgrabe.net/bird04.jpg" alt="">
+    </div>
+    <button onclick="btnClick5()" type="button" id="myBtn5">Rose Robin</button>
 
+    <script src="./script.js"></script>
 </body>
 
-<script>
-    function myButton(){
-        
-    }
-</script>
 </html>
